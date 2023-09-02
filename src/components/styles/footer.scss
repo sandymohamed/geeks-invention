@@ -1,0 +1,107 @@
+@import 'main';
+
+.footer {
+    @extend .flex;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 42px 15px 29px ;
+    justify-content: space-between;
+
+
+    &>* {
+        width: 20%;
+    }
+
+    .footer-logo {
+        padding-top: 30px;
+
+        a {
+            transition: all 400ms;
+            cursor: pointer;
+        }
+
+        p {
+            font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            color: white;
+            opacity: .7;
+        }
+    }
+
+    nav {
+        width: 50%;
+        float: right;
+        text-align: center;
+        opacity: 1;
+
+        ul {
+
+            li {
+                float: left;
+                // display: inline-block;
+                padding: 0 0 10px 0;
+                margin-right: 10px;
+                list-style-type: none;
+                
+                a {
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-transform: none;
+                    padding: 1px 5px;
+                    letter-spacing: -0.25px;
+                    
+                    display: inline-block;
+                    font-family: "brandon_text_regularregular", Helvetica, Arial, sans-serif;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: $primaryColor;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    padding: 5px 8px;
+                    letter-spacing: 0.9px;
+                    position: relative;
+                }
+            }
+        }
+    }
+
+    .btn-white {
+        @extend .btn;
+        color: white;
+        border: 1px solid white;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .footer {
+        // flex-direction: column;
+
+
+        nav {
+            display: block;
+
+            ul {
+                display: inline-block;
+                margin: 0 auto;
+
+                & > *{
+                    width: 45%;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        margin: 0 auto;
+
+        & > *{
+            width: 50%;
+        }
+
+    }
+}
