@@ -3,9 +3,9 @@ import './styles';
 
 // -------------------------------------------------------------------------------
 
-const IconsCard = ({ image, title }) => {
+const IconsCard = ({ image, title, t }) => {
   return (
-    <div className='icon-card-container'>
+    <div className='icon-card-container'  data-aos="zoom-in" data-aos-delay={ 100 * t }>
 
       <div className='icon-card-logo-container'>
         <img src={image} alt={title} />

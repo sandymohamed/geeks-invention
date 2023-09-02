@@ -23,14 +23,14 @@ const cardData = [
 // -----------------------------------------------------------------------------------------------------------------------------
 const RecentClients = () => {
     return (
-        <section className="recent-clients">
+        <section className="recent-clients gray">
             <div className="centered-container">
 
                 <h2 className="centered-title recent-title">Recent clients</h2>
                 <p className="centered-text"> We worked with the Fortune 500 companies in the USA, Africa, UK, Middle East
                     World's 4th Strongest Banking Brand, Automobile & IoT industry </p>
             </div>
-            <div className='cards-container'>
+            <div className='cards-container'  data-aos="fade-up" data-aos-delay="250">
                 {cardData?.map((item) => (
                     <ClientsCard 
                     key={item.id} 

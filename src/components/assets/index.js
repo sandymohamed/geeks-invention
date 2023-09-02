@@ -32,6 +32,8 @@ import asset27 from "./asset 27.svg";
 import asset28 from "./asset 28.svg";
 import asset29 from "./asset 29.png";
 import logo from "./geeks-logo-white.svg";
+import bg from "./bg.png";
+import g from "./g.svg";
 
 export {
     logo,
@@ -68,4 +70,6 @@ export {
     asset27,
     asset28,
     asset29,
+    bg,
+    g,
 };

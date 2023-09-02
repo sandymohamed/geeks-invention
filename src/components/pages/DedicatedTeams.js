@@ -12,16 +12,23 @@ const cardData = [
     ],
     [
 
-        { id: 10, image: asset24, title: "Regular reporting", },
-        { id: 10, image: asset25, title: "Time tracking", },
-        { id: 10, image: asset26, title: "Scalability", },
+        { id: 3, image: asset24, title: "Regular reporting", },
+        { id: 4, image: asset25, title: "Time tracking", },
+        { id: 5, image: asset26, title: "Scalability", },
     ]
 ]
 // -----------------------------------------------------------------------------------------------------------------------------
 const DedicatedTeams = () => {
     return (
-        <section className="recent-clients detected" style={{ width: '100%' }}>
-            <div className="centered-container" style={{ width: '100%' }}>
+        <section
+            className="recent-clients detected gray"
+            style={{ width: '100%' }}
+
+        >
+            <div className="centered-container" style={{ width: '100%' }}
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                data-aos-duration="500">
 
                 <h2 className="centered-title recent-title">Only dedicated teams</h2>
                 <p className="centered-text detected-text"> Our team is 100% concentrated on your project and you have full control over management of the dedicated team members.</p>
@@ -36,18 +43,20 @@ const DedicatedTeams = () => {
                                 key={item.id}
                                 image={item.image}
                                 title={item.title}
-                            />
-
-                        ))
-                        }
+                                t={item.id}
+                                />
+                                
+                                ))
+                            }
                     </div>
                     <div className='last'>
 
                         {cardData[1]?.map((item) => (
                             <IconsCard
-                                key={item.id}
-                                image={item.image}
-                                title={item.title}
+                            key={item.id}
+                            image={item.image}
+                            title={item.title}
+                            t={item.id}
                             />
 
                         ))

@@ -6,7 +6,9 @@ import { logo } from '../assets';
 
 const Footer = () => {
     return (
-        <section className='footer'>
+        <section className='footer-section'>
+            <div className='footer'>
+
             <div className='footer-logo'>
                 <a rel="nofollow" href="index.html">
                     <img src={logo} alt="geeks" />
@@ -63,7 +65,12 @@ const Footer = () => {
                 data-toggle="modal"
                 data-target="#subscribeModal"
                 data-backdrop="static"
-            >Stay tuned for our updates</a></section>
+                >Stay tuned for our updates</a>
+            
+                </div>
+
+                <p className='muted-text'>© Copyright 2023 – Mobile App Design and Development Company. All Rights Reserved</p>
+            </section>
 
     )
 }

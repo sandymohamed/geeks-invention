@@ -6,10 +6,10 @@ import '../styles';
 //  ---------------------------------------------------------
 const SmartEducation = () => {
     return (
-        <section className='page-container iot'>
+        <section className='page-container iot '>
 
             <div className='left'>
-                <div className='content-container'>
+                <div className='content-container'  data-aos="fade-up" data-aos-delay="200">
                     <h3 className='title'>Smart Education</h3>
                     <p className='subtitle'>Elevate your Education Institution</p>
 

@@ -8,9 +8,9 @@ const cardData = [
     { id: 0, image: asset15, title: "Web", },
     { id: 1, image: asset16, title: "iOS", },
     { id: 2, image: asset17, title: "Android", },
-    { id: 10, image: asset18, title: "Hybrid", },
-    { id: 10, image: asset19, title: "Wearables", },
-    { id: 10, image: asset20, title: "TV", },
+    { id: 3, image: asset18, title: "Hybrid", },
+    { id: 4, image: asset19, title: "Wearables", },
+    { id: 5, image: asset20, title: "TV", },
 ]
 // -----------------------------------------------------------------------------------------------------------------------------
 const PlatformsPage = () => {
@@ -27,6 +27,7 @@ const PlatformsPage = () => {
                             key={item.id}
                             image={item.image}
                             title={item.title}
+                            t={item.id + 1}
                         />
 
                     ))

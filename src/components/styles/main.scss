@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'radikalregular';
+    src: url('../assets/fonts/RadikalTrial-Regular-BF642254c157251.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: xxx-large;
+  }
+  
+@font-face {
+    font-family: 'brandon_text_regularregular';
+    src: url('../assets/fonts/HvDTrial_BrandonGrotesqueCond-Regular-BF64a627d905063.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+
 $primaryColor: #fff;
 $secondaryColor: #bf4902;
 
@@ -23,7 +41,7 @@ $secondaryColor: #bf4902;
     text-align: center;
     min-width: 270px;
     max-width: 100%;
-    font-size: 20px;
+    font-size: 30px;
     font-family: brandon_text_regularregular, Helvetica, Arial, sans-serif;
     cursor: pointer;
     transition: color 0.3s ease-out 0s, border-color 0.3s ease-out 0s, background 0.3s ease-out 0s, background-color 0.3s ease-out 0s;
@@ -35,7 +53,7 @@ $secondaryColor: #bf4902;
     overflow: hidden;
     margin: 0px;
     border-radius: 50px;
-    padding: 11px 35px 14px;
+    padding: 11px 35px 11px 15px;
     outline: none;
 }
 

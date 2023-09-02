@@ -1,18 +1,24 @@
 import React from 'react'
 import '../styles';
-import ParticlesComp from './ParticleBackground';
+import { Parallax } from 'react-parallax';
+import { g } from '../assets';
+import ParticleBackground from './ParticleBackground';
 
 // -----------------------------------------------------------------------
 const WelcomePage = () => {
   return (
+
     <section className='welcome'
-    // style={{background: '#fff'}}
+      style={{
+        backgroundImage: `url(${g})`,
+        backgroundRepeat: 'no-repeat',
+
+        backgroundSize: '100% 100%',
+
+      }}
     >
+      <ParticleBackground opacity={0.5} />
 
-<ParticlesComp />
-
-        <p>EMBRACE THE FUTURE</p>
-        <p>Welcome to the Age of Action</p>
     </section>
   )
 }

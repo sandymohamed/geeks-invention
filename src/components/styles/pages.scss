@@ -1,11 +1,19 @@
 @import 'main';
 
 
+
+.gray{
+    background-color: #16181c;
+    background: linear-gradient(transparent 0%, #272931 20%, #23252c 70%, transparent 100%);
+  
+  }
+
+
 .page-container {
     @extend .flex;
-    margin: 3rem;
-    padding: 3rem;
+    padding: 6rem;
     color: $primaryColor;
+    background-color: transparent !important;
     font-family: brandon_text_regularregular, Helvetica, Arial, sans-serif;
 
     &>* {
@@ -131,6 +139,8 @@
         color: white;
         background-color: #ff5300;
         margin-bottom: 3rem;
+        padding: 11px 35px 11px ;
+
 
 
         &:hover {

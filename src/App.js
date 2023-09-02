@@ -1,7 +1,10 @@
 // App.js
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.scss';
 import Header from './components/Header';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import {
   WelcomePage,
   Solution,
@@ -17,21 +20,40 @@ import {
 
 
 const App = () => {
+
+  useEffect(() => {
+    AOS.init();
+
+
+
+  }, [])
+
   return (
-    <div className="app">
+    <div className='App' >
+
       <Header />
       <WelcomePage />
-      <Solution />
-      <IOTPage />
-      <SmartEducation />
-      <CheckoutPage />
-      <RecentClients />
-      <PlatformsPage />
-      <DedicatedTeams />
+      <div 
+      className='blue'
+      // data-aos="fade-up"
+      //   data-aos-duration="30"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+            data-aos-delay="50"
+        >
+
+        <Solution />
+        <IOTPage />
+      </div>
+        <SmartEducation />
+        <CheckoutPage />
+        <RecentClients />
+        <PlatformsPage />
+        <DedicatedTeams />
       <KnowUs />
       <Footer />
-
     </div>
+
   );
 };
 

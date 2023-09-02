@@ -1,15 +1,17 @@
 import React from 'react'
 import { industryIOT } from '../assets';
 import '../styles';
+import { Parallax } from 'react-scroll-parallax';
 
 
 //  ---------------------------------------------------------
 const IOTPage = () => {
     return (
-        <section className='page-container iot'>
 
-            <div className='left'>
-                <div className='content-container'>
+        <section className='page-container iot '>
+
+            <div className='left'  >
+                <div className='content-container'  data-aos="fade-up" data-aos-delay="200">
                     <h3 className='title'>Industrial IoT</h3>
                     <p className='subtitle'>Providing a better connected experience</p>
 
@@ -26,6 +28,7 @@ const IOTPage = () => {
                 </div>
 
             </div>
+
             <div className='right img-container'>
                 <img src={industryIOT} alt="fintech" />
 

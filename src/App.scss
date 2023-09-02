@@ -3,7 +3,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #16181c;;
+  background-color: #16181c;
+  ;
   color: #fff;
 }
 
@@ -13,3 +14,31 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+@keyframes bgChangeDownBlue {
+  0% {
+    background-color: transparent;
+  }
+
+  5% {
+    background: rgb(63, 44, 170);
+
+  }
+
+  40% {
+    background: linear-gradient(rgba(63, 44, 170, 1) 0%, rgba(1, 181, 172, 1) 70%, rgba(1, 181, 172, 1) 100%);
+  }
+
+  70% {
+    background: linear-gradient(rgba(63, 44, 170, 1) 0%, rgba(1, 181, 172, 1) 70%, rgba(1, 181, 172, 1) 100%);
+  }
+}
+
+
+
+
+.blue {
+  background: rgb(63, 44, 170);
+  background: linear-gradient(rgba(63, 44, 170, 1) 0%, rgba(1, 181, 172, 1) 70%, rgba(1, 181, 172, 1) 100%);
+}
+

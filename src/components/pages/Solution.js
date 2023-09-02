@@ -1,15 +1,21 @@
 import React from 'react'
 import { industryFintech } from '../assets';
 import '../styles';
+import { Parallax } from 'react-scroll-parallax';
 
 
 //  ---------------------------------------------------------
 const Solution = () => {
     return (
-        <section className='page-container'>
+      
+        <section
+        // data-aos="fade-up"
+        // data-aos-duration="30"
+        className='page-container' 
+        >
 
             <div className='left'>
-                <div className='content-container'>
+                <div className='content-container' data-aos="fade-up" data-aos-delay="200">
                     <h3 className='title'>Fintech Solution</h3>
                     <p className='subtitle'>Transforming Fintech with AI</p>
 
