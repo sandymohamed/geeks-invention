@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles';
-import { Parallax } from 'react-parallax';
 import { g } from '../assets';
 import ParticleBackground from './ParticleBackground';
 
@@ -17,7 +16,7 @@ const WelcomePage = () => {
 
       }}
     >
-      <ParticleBackground opacity={0.5} />
+      <ParticleBackground  />
 
     </section>
   )

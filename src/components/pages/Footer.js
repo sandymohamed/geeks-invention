@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
 
             <nav>
-                <ul class="clearfix">
+                <ul className="clearfix">
                     <li>
                         <a rel="nofollow" href="works/">
                             <span>Works</span>
@@ -61,7 +61,7 @@ const Footer = () => {
 
             <a rel="nofollow"
                 href="#"
-                class=" btn-white subscription-dialog"
+                className=" btn-white subscription-dialog"
                 data-toggle="modal"
                 data-target="#subscribeModal"
                 data-backdrop="static"

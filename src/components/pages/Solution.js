@@ -1,17 +1,12 @@
 import React from 'react'
 import { industryFintech } from '../assets';
 import '../styles';
-import { Parallax } from 'react-scroll-parallax';
-
 
 //  ---------------------------------------------------------
 const Solution = () => {
     return (
       
-        <section
-        // data-aos="fade-up"
-        // data-aos-duration="30"
-        className='page-container' 
+        <section className='page-container' 
         >
 
             <div className='left'>

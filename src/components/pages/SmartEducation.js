@@ -20,7 +20,13 @@ const SmartEducation = () => {
 
                     </div>
 
-                    <p className='text'>Elevate your education institution with our comprehensive software solutions. Learning management, course offerings, professional training, certification, and school management tools to streamline your operations and enhance your students' learning experience. Trust us to provide the cutting-edge technology and support you need to thrive in the ever-evolving education industry.</p>
+                    <p className='text'>
+                        Elevate your education institution with our comprehensive software solutions.
+                         Learning management, course offerings, professional training, certification,
+                          and school management tools to streamline your operations and enhance your
+                           students&apos; learning experience. Trust us to provide the cutting-edge technology and
+                            support you need to thrive in the ever-evolving education industry.
+                            </p>
 
                     <a className='btn-more ' href='#'> <span>see full case study</span> </a>
 

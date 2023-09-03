@@ -1,7 +1,6 @@
 import React from 'react'
 import { industryIOT } from '../assets';
 import '../styles';
-import { Parallax } from 'react-scroll-parallax';
 
 
 //  ---------------------------------------------------------

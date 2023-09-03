@@ -1,9 +1,10 @@
+import React, { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { loadPolygonMaskPlugin } from "tsparticles-plugin-polygon-mask";
-import { useCallback } from "react";
 
-export default function ParticleBackground({opacity}) {
+const ParticleBackground = () => {
+
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
     await loadPolygonMaskPlugin(engine);
@@ -73,7 +74,7 @@ export default function ParticleBackground({opacity}) {
       color: {
         value: "#ff7903"
       },
-     
+
       move: {
         enable: true,
         outModes: "bounce",
@@ -91,7 +92,7 @@ export default function ParticleBackground({opacity}) {
         },
         value: {
           min: 0.05,
-          max: opacity
+          max: .6
         }
       },
       shape: {
@@ -112,3 +113,6 @@ export default function ParticleBackground({opacity}) {
     </div>
   );
 }
+
+
+export default ParticleBackground;

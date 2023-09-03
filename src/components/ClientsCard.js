@@ -3,6 +3,7 @@ import './styles';
 
 // -------------------------------------------------------------------------
 
+/* eslint-disable react/prop-types */
 const ClientsCard = ({ image, title, description }) => {
 
   return (

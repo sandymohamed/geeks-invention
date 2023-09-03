@@ -28,7 +28,7 @@ const RecentClients = () => {
 
                 <h2 className="centered-title recent-title">Recent clients</h2>
                 <p className="centered-text"> We worked with the Fortune 500 companies in the USA, Africa, UK, Middle East
-                    World's 4th Strongest Banking Brand, Automobile & IoT industry </p>
+                    World&apos;s 4th Strongest Banking Brand, Automobile & IoT industry </p>
             </div>
             <div className='cards-container'  data-aos="fade-up" data-aos-delay="250">
                 {cardData?.map((item) => (
