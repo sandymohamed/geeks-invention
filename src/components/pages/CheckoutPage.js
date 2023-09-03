@@ -9,7 +9,7 @@ const CheckoutPage = () => {
     <p className="centered-text">
       Our case studies describe design and development solutions implemented at our Geeks Invention projects. The stories are a valuable resource for those looking to develop their own mobile apps.
     </p>
-    <a className='orange-btn ' href='#'> <span>see full case study</span> </a>
+    <p className='orange-btn '  > <span>see full case study</span>  </p>
 
   </section>
   )

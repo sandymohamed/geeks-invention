@@ -13,7 +13,7 @@ const KnowUs = () => {
     <p className="centered-text know-text">
     It is a pleasure to have you on our website. Let us know if there&apos;s an opportunity to do something together.
     </p>
-    <a className='know-btn ' href='#'> Drop us a message </a>
+    <p className='know-btn '  > Drop us a message </p>
 
   </section>  )
 }

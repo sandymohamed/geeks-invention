@@ -23,7 +23,7 @@ const IOTPage = () => {
 
                     <p className='text'>Revolutionize your industry with our innovative IoT solutions. Our software development services offer connected manufacturing, pollution control, smart transportation, and intelligent farming, agriculture, and forestry. With our expertise, you can harness the power of technology to increase efficiency, reduce waste, and optimize operations for a sustainable future.</p>
 
-                    <a className='btn-more ' href='#'> <span>see full case study</span> </a>
+                    <p className='btn-more '  > <span>see full case study</span>  </p>
                 </div>
 
             </div>

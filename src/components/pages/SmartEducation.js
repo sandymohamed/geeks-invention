@@ -28,7 +28,7 @@ const SmartEducation = () => {
                             support you need to thrive in the ever-evolving education industry.
                             </p>
 
-                    <a className='btn-more ' href='#'> <span>see full case study</span> </a>
+                    <p className='btn-more '  > <span>see full case study</span>  </p>
 
                 </div>
 

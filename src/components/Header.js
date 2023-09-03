@@ -24,44 +24,44 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header-container'>
-                <a rel="nofollow" href="index.html" className='logo-img'>
+                <p rel="nofollow" href="index.html" className='logo-img'>
                     <img src={logo} alt="geeks" />
-                </a>
+                 </p>
 
-                <a href="#" className={`device-menu ${menuClass ? 'open' : ''} `} onClick={() => handleMenueClick()}>
+                <p href="#" className={`device-menu ${menuClass ? 'open' : ''} `} onClick={() => handleMenueClick()}>
 
                     <div className="device-menu__i">
                         <span className='ft'></span>
                         <span className='sc'></span>
                         <span className='td'></span>
                     </div>
-                </a>
+                 </p>
 
 
                 <ul className={`nav ${navClass ? 'active-nav' : ''} `}>
 
                     <li className={activeLink === 'home' ? 'active' : ''} >
-                        <a className='one' href='#' onClick={() => handleClick('home')}>home </a>
+                        <p className='one'   onClick={() => handleClick('home')}>home  </p>
                     </li>
 
                     <li className={activeLink === 'works' ? 'active' : ''}>
-                        <a className='two' href='#' onClick={() => handleClick('works')}> works </a>
+                        <p className='two'   onClick={() => handleClick('works')}> works  </p>
                     </li>
 
                     <li className={activeLink === 'technologies' ? 'active' : ''}>
-                        <a className='one' href='#' onClick={() => handleClick('technologies')}>technologies </a>
+                        <p className='one'   onClick={() => handleClick('technologies')}>technologies  </p>
                     </li>
 
                     <li className={activeLink === 'services' ? 'active' : ''}>
-                        <a className='two' href='#' onClick={() => handleClick('services')}>services </a>
+                        <p className='two'   onClick={() => handleClick('services')}>services  </p>
                     </li>
 
                     <li className={activeLink === 'compan' ? 'active' : ''}>
-                        <a className='one' href='#' onClick={() => handleClick('compan')}>compan </a>
+                        <p className='one'   onClick={() => handleClick('compan')}>compan  </p>
                     </li>
 
                     <li className={activeLink === 'contacts' ? 'active' : ''}>
-                        <a className='two' href='#' onClick={() => handleClick('contacts')}>contacts </a>
+                        <p className='two'   onClick={() => handleClick('contacts')}>contacts  </p>
                     </li>
 
                 </ul>

@@ -23,7 +23,7 @@ const Solution = () => {
 
                     <p className='text'>Empower your financial institution with our advanced fintech solutions. From real-time fraud detection to easy bookkeeping, our software development services provide credit risk scoring for accurate lending eligibility, transaction categorization for seamless organization, and anomaly detection to safeguard your assets</p>
 
-                    <a className='btn-more ' href='#'> <span>see full case study</span> </a>
+                    <p className='btn-more '  > <span>see full case study</span>  </p>
                 </div>
 
             </div>

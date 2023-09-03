@@ -33,7 +33,7 @@ const PlatformsPage = () => {
                     ))
                     }
                 </div>
-                <a className='orange-btn ' href='#'> <span>see full case study</span> </a>
+                <p className='orange-btn' > <span>see full case study</span>  </p>
             </div>
         </section>)
 }

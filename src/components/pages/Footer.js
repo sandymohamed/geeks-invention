@@ -10,9 +10,9 @@ const Footer = () => {
             <div className='footer'>
 
             <div className='footer-logo'>
-                <a rel="nofollow" href="index.html">
+                <p rel="nofollow" href="index.html">
                     <img src={logo} alt="geeks" />
-                </a>
+                 </p>
 
                 <p> 
                     447 Broadway, 2nd Floor Suite #772, New York 10013, United States
@@ -24,48 +24,48 @@ const Footer = () => {
             <nav>
                 <ul className="clearfix">
                     <li>
-                        <a rel="nofollow" href="works/">
+                        <p rel="nofollow" href="works/">
                             <span>Works</span>
-                        </a>
+                         </p>
                     </li>
                     <li>
-                        <a rel="nofollow" href="technologies/">
+                        <p rel="nofollow" href="technologies/">
                             <span>Technologies</span>
-                        </a>
+                         </p>
                     </li>
                     <li>
-                        <a rel="nofollow" href="services/">
+                        <p rel="nofollow" href="services/">
                             <span>Services</span>
-                        </a>
+                         </p>
                     </li>
                     <li>
-                        <a rel="nofollow" href="about/">
+                        <p rel="nofollow" href="about/">
                             <span>Company</span>
-                        </a>
+                         </p>
                     </li>
                     <li>
-                        <a rel="nofollow" href="contacts/">
+                        <p rel="nofollow" href="contacts/">
                             <span>Contacts</span>
-                        </a>
+                         </p>
                     </li>
                     <li>
-                        <a href="terms.html">
+                        <p href="terms.html">
                         <span>Terms and Conditions</span>
-                        </a>
-                        <a href="privacy.html">
+                         </p>
+                        <p href="privacy.html">
                         <span>Privacy Policy</span>
-                        </a>
+                         </p>
                     </li>
                 </ul>
             </nav>
 
-            <a rel="nofollow"
+            <p rel="nofollow"
                 href="#"
                 className=" btn-white subscription-dialog"
                 data-toggle="modal"
                 data-target="#subscribeModal"
                 data-backdrop="static"
-                >Stay tuned for our updates</a>
+                >Stay tuned for our updates </p>
             
                 </div>
 
