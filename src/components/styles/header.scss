@@ -216,18 +216,18 @@
                     font-size: 24px;
                     line-height: normal;
                     transform: matrix(1, 0, 0, 1, 0, 0);
-
-                    a.one {
+                }
+                    li.one {
                         position: relative;
                         animation-name: left;
                         animation-duration: 1s;
                     }
-                    a.two {
+                    li.two {
                         position: relative;
                         animation-name: right;
                         animation-duration: 1s;
                     }
-                }
+                
 
             }
         }
