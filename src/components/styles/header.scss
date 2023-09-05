@@ -3,21 +3,21 @@
 
 @keyframes left {
     from {
-       left: 150%;
+        left: 150%;
     }
 
     to {
-       left: 0;
+        left: 0;
     }
 }
 
 @keyframes right {
     from {
-       right: 100%;
+        right: 100%;
     }
 
     to {
-       right: 0;
+        right: 0;
     }
 }
 
@@ -134,7 +134,7 @@
         .nav {
             @extend .flex;
 
-            &>* {
+            & >* {
                 margin: .5rem;
                 text-transform: uppercase;
                 list-style: none;
@@ -144,17 +144,16 @@
                 letter-spacing: 0.9px;
                 display: inline-block;
 
-                a {
-                    text-decoration: none;
-                    color: $primaryColor;
-                    transition: all 400ms;
-                    cursor: pointer;
+                text-decoration: none;
+                color: $primaryColor;
+                transition: all 400ms;
+                cursor: pointer;
 
-                    &:hover {
-                        text-decoration: underline #ff7903;
+                &:hover {
+                    text-decoration: underline #ff7903;
 
-                    }
                 }
+
             }
 
             .active {
@@ -217,17 +216,19 @@
                     line-height: normal;
                     transform: matrix(1, 0, 0, 1, 0, 0);
                 }
-                    li.one {
-                        position: relative;
-                        animation-name: left;
-                        animation-duration: 1s;
-                    }
-                    li.two {
-                        position: relative;
-                        animation-name: right;
-                        animation-duration: 1s;
-                    }
-                
+
+                li.one {
+                    position: relative;
+                    animation-name: left;
+                    animation-duration: 1s;
+                }
+
+                li.two {
+                    position: relative;
+                    animation-name: right;
+                    animation-duration: 1s;
+                }
+
 
             }
         }
